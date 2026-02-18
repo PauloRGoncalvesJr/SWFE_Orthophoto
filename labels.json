@@ -1,0 +1,59 @@
+{
+  "labels": [
+    {
+      "id": 1,
+      "key": "1",
+      "name": "Good",
+      "severity_code": "1",
+      "icon": "good.bmp",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "key": "2",
+      "name": "Minor",
+      "severity_code": "2",
+      "icon": "minor.bmp",
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "key": "3",
+      "name": "Moderate",
+      "severity_code": "3",
+      "icon": "moderate.bmp",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "key": "4",
+      "name": "Severe",
+      "severity_code": "4",
+      "icon": "severe.bmp",
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "key": "5",
+      "name": "Not a Sidewalk",
+      "severity_code": "0",
+      "icon": "not_a_sidewalk.bmp",
+      "enabled": true
+    }
+  ],
+  "attribute_table": {
+    "SlabID": "SWID-NNNN-AAAA",
+    "Severity": "1=Good, 2=Minor defects, 3=Moderate defects, 4=Serious defects",
+    "Size": "Narrow(<1m), Regular(1m-1.6m), Wide(>1.6m), Irregular(mixed)",
+    "Tripping Hazard": "Yes/No",
+    "Surface type": "Concrete, Asphalt, Brick, Mix, Other",
+    "Notes": "Free text",
+    "Running Slope": "Future feature",
+    "Cross Slope": "Future feature",
+    "Latitude": "Decimal degrees",
+    "Longitude": "Decimal degrees",
+    "Technician": "Name",
+    "Ramp": "Yes/No",
+    "Utility present on panel": "Yes/No"
+  }
+}
